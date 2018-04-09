@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:GoogleMaterialIcons" 
+    xmlns:mi="clr-namespace:MaterialIcons.FormsPlugin.Abstractions;assembly=MaterialIcons.FormsPlugin.Abstractions"
+    x:Class="GoogleMaterialIcons.GoogleMaterialIconsPage">
+    
+    <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Padding="20">
+        
+        <Label 
+            Text="Exemplo do Material Icon (Gooole)" 
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="5"/>
+
+        <Label 
+            Text="https://material.io/icons/" 
+            FontSize="Small"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="5" />
+
+        <mi:IconLabel 
+            Icon="ic_check_circle" 
+            FontSize="48" 
+            TextColor="Black"/>
+
+        <mi:IconLabel 
+            Icon="ic_android" 
+            FontSize="48" 
+            TextColor="Blue"/>
+
+    </StackLayout>   
+</ContentPage>
